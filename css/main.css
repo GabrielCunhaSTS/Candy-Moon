@@ -1,8 +1,12 @@
+@import url('https://www.dafont.com/pt/bright-2.font'); /*  font-family: 'Bright DEMO', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap'); /* font-family: "Lexend Deca", sans-serif; */
+@import url('https://www.dafont.com/pt/magic-retro.font'); /*  font-family: 'Magic Retro',sans-serif; */
+
+
 body{
     margin: 0;
     background-image: url(/img/Fundo.png);
     background-repeat: no-repeat;
-    
 }
 
 .navBar{
@@ -15,6 +19,7 @@ body{
     height: 6vw;
     background-color: #FFE1CF;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    font-family: "Lexend Deca", sans-serif;
 }
 
 .ul{
@@ -35,6 +40,12 @@ body{
     font-size: 1.1vw;
 }
 
+.linha:hover{
+    background-color: #472f2f;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
 .logo{
      width:5vw;
      height: 5vw;    
@@ -47,4 +58,20 @@ body{
     padding: 0.5vw;
     border-radius: 2vw;
     align-self: center;
+}
+
+.icon:hover{
+    background-color: #472f2f;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.textInicial{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.title{
+    font-family: 'Bright DEMO', sans-serif;
 }
