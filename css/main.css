@@ -70,8 +70,48 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: row;
+    margin-left: 5vw;
+    margin-top: 5vw;
 }
 
 .title{
     font-family: 'Bright DEMO', sans-serif;
+    font-weight: 500;
+    font-size: 9vw;
+    color: #3D2929;
 }
+
+.imgIni{
+    width:48vw;
+    height: 48vw;
+}
+
+.divisa{
+    width: 100%;
+    background-color: #FFD8C0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8vw;
+    margin-top: 5vw;
+}
+
+.imgSub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 1.2vw;
+    color: #582B2B;
+}
+
+.icones{
+   width: 12vw;
+   padding: 3vw;
+    background-color: #EFB8B9;
+    border-radius: 10vw;
+    align-self: center;
+}
+
