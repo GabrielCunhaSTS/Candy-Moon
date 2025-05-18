@@ -468,11 +468,11 @@ iframe {
     padding-top: 3vw;
 }
 
-.logo img{
+.logo-footer img{
     width: 25vw;
 }
 
-.logo {
+.logo-footer {
     width: 10%;
     display: flex;
     justify-content: center;
@@ -488,7 +488,6 @@ iframe {
 .redes-sociais{
     display: flex;
     flex-direction: column;
-
 }
 
 .redes-sociais a {
@@ -515,7 +514,6 @@ iframe {
 .paginas li {
     margin: 0.5vw 0;
 }
-
 
 .paginas a{
     font-size: 1.6vw;
