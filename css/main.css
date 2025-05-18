@@ -28,6 +28,10 @@ body{
     gap: 5vw; 
 }
 
+.ul a{
+  text-decoration: none;
+}
+
 .linha{
     display: flex;
     justify-content: center;
@@ -257,6 +261,7 @@ body{
 /* Fim do carrossel */
 
 .banner{
+    width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -266,7 +271,7 @@ body{
     text-align: center;
     justify-content: center;
     background-color: #3D2929;
-    width: 28vw;
+    width: 30vw;
     padding: 0.8vw;
     color: #FFF;
     font-family: 'Bright DEMO', sans-serif;
@@ -354,22 +359,37 @@ body{
     gap: 5vw;
 }
 
-.caixinha{
+.caixinha {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: #7E5454;
-    border:  solid 1px #482E2E;
-    border-radius: 1vw;
-    width: 10vw;
-    height: 10vw;
+    border: 6px solid #482E2E;
+    color: #FFF;
+    border-radius: 15px;
+    width: 11.5vw;
+    height: 11.5vw;
+    padding: 0.7vw;
+    text-align: center;
 }
 
-
-.iconesForm{
-    width: 3vw;
+.iconesForm {
+    width: 5vw;
+    margin-bottom: 0.8vw;
 }
+
+.caixinha h5 {
+    font-size: 1.41vw;
+    margin: 0.26vw 0;
+}
+
+.caixinha p {
+    font-size: 0.94vw;
+    margin: 0;
+    word-break: break-word;
+}
+
 
 .colum{
     display: flex;
@@ -381,9 +401,54 @@ body{
 
 .container2{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
+    align-items: flex-start;
     flex-direction: row;
     gap: 5vw;
     margin-top: 10vw;
+}
+
+
+.formulario {
+    width: 52%;
+}
+
+.formulario h2 {
+    font-size: 5.73vw;
+    margin: 0 0 0.52vw 0;
+    padding: 0;
+}
+
+.formulario legend {
+    width: 75%;
+    font-size: 1.30vw;                 
+    margin-bottom: 1.04vw;             
+    font-weight: bold;
+    display: block;
+}
+
+.formulario form p {
+    margin: 1.04vw 0 0.42vw;
+    font-weight: bold;
+}
+
+.formulario input,
+.formulario textarea {
+    width: 75%;
+    padding: 0.78vw;                  
+    border-radius: 0.52vw;             
+    border: 0.16vw solid #482E2E;     
+    color: #7E5454;
+    background-color: #FFDDC6;
+    font-size: 1.04vw;                 
+    margin-bottom: 1.04vw;             
+}
+
+.formulario p {
+    font-size: 1.56vw;               
+}
+
+iframe {
+    border-radius: 1.04vw;            
+    border: 0.31vw solid #482E2E;      
 }
