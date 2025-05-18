@@ -4,6 +4,7 @@
 
 
 body{
+    padding: 0;
     margin: 0;
     background-image: url(../img/Fundo.png);
     background-repeat: no-repeat;
@@ -451,4 +452,72 @@ body{
 iframe {
     border-radius: 1.04vw;            
     border: 0.31vw solid #482E2E;      
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3D2929;
+    background-image: url('/img/ImagemFooter.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% auto;
+    padding-bottom: 8vw;
+    padding-top: 3vw;
+}
+
+.logo img{
+    width: 25vw;
+}
+
+.logo {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.redes-sociais img{
+    width: 2vw;
+}
+
+.redes-sociais{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.redes-sociais a {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    color: #FFE1CF;
+    font-size: 1.7vw;
+    text-decoration: none;
+}
+
+.redes-sociais ul,
+.paginas ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2vw;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.redes-sociais li,
+.paginas li {
+    margin: 0.5vw 0;
+}
+
+
+.paginas a{
+    font-size: 1.6vw;
+    color: #FFF;
+    text-decoration: none;
 }
