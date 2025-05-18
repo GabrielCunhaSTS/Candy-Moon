@@ -458,7 +458,7 @@ iframe {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     background-color: #3D2929;
     background-image: url('/img/ImagemFooter.png');
     background-repeat: no-repeat;
@@ -478,6 +478,7 @@ iframe {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-top: 5vw;
 }
 
 .redes-sociais img{
