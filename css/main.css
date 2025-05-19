@@ -297,30 +297,31 @@ body{
 .card, 
 .card2, 
 .card3{
-    
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
     justify-items: center;
     text-align: center;
     background-color: #3D2929;
     width: 20vw;
-    height: 32vw;
+    height: 30vw;
     border-radius: 2vw;
 }
 
 .card img{
     width: 20vw;
-    margin-top: -1vw;
+    margin-top: -2vw;
 }
 
 .card2 img{
-    width: 20vw;
-    margin-top: -1vw;
+    width: 20.7vw;
+    margin-top: -1.8vw;
 }
 
 .card3 img{
     width: 20vw;
-    margin-top: -1vw;
+    margin-top: -2vw;
 }
 
 
@@ -342,12 +343,12 @@ body{
 }
 
 .compra{
-    padding: 0.8vw;
+    padding: 0.5vw;
     font-family: 'Bright DEMO', sans-serif;
-    width: 15vw;
+    width: 12vw;
     border-radius: 5vw;
     border: none;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     background-color: #FFC6C7;
     color: #582B2B;
 }
@@ -450,6 +451,8 @@ body{
 }
 
 iframe {
+    width: 30.8vw;
+    height: 19vw;
     border-radius: 1.04vw;            
     border: 0.31vw solid #482E2E;      
 }
@@ -518,4 +521,80 @@ iframe {
     font-size: 1.6vw;
     color: #FFF;
     text-decoration: none;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 6vw;
+    padding-bottom: 10vw;
+}
+
+.card-redeSocial {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #3D2929;
+    position: relative;
+    width: 25vw;
+    height: 29vw;
+    border-radius: 0.9vw;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #FFF;
+}
+
+.card-redeSocial:hover {
+    transform: scale(1.06);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-redeSocial::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 0;
+}
+
+.icon-circle img {
+    width: 12vw;
+    height: 12vw;
+}
+
+.card-text {
+    color: #FFE7E1;
+    width: 100%;
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+.card-text a {
+    color: #FFE7E1;
+}
+
+.subtitle {
+    color: #FFE7E1;
+    font-size: 1.2vw;
+    font-weight: normal;
+}
+
+.card-instagram {
+  background-image: url('/img/Alfajores.png');
+}
+
+.card-whatsapp {
+  background-image: url('/img/image-1.png');
+}
+
+.card-ifood {
+  background-image: url('/img/image-6.png');
+}
+
+.card-redeSocial .icon-circle,
+.card-redeSocial .card-text {
+    position: relative;
+    z-index: 1;
 }
