@@ -4,6 +4,12 @@ section div
     margin-left: 5vw;
 }
 
+h1, h2, h3
+{
+    color: #3D2929;
+    font-weight: bold;
+}
+
 #sobre
 {
     font-size: 25px;
@@ -26,16 +32,36 @@ h2
     background-color: #FFD8C0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    gap: 8vw;
-    margin-top: 5vw;
 }
+
+#linhaDoTempo picture img
+{
+    width: 100%;
+    display: flex;
+    align-self: center;
+}
+
 
 #linhaDoTempo section
 {
     display: flex;
     justify-content: center;
-    margin: 0 5vw;
+    margin: 0vw 5vw;
     gap: 8vw;
+}
+
+#linhaDoTempo section article
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}   
+
+#video
+{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
 }
