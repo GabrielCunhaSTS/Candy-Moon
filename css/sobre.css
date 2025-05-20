@@ -29,6 +29,7 @@ h2
 #linhaDoTempo
 {
     width: 100%;
+    padding: 0px 0px 35px 0px;
     background-color: #FFD8C0;
     display: flex;
     flex-direction: column;
@@ -57,7 +58,17 @@ h2
     flex-direction: column;
     align-items: center;
     text-align: left;
-}   
+} 
+
+#linhaDoTempo section article p
+{
+    color: #3D2929;
+    width: 18vw;
+    margin-top: 2%;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 300;
+} 
+
 
 #video
 {
