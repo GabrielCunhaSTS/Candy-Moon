@@ -24,13 +24,15 @@ body{
     font-family: "Lexend Deca", sans-serif;
 }
 
+.navBar ul li a
+{
+    text-decoration: none;
+    color: #FFF;
+}
+
 .ul{
     display: flex;
     gap: 5vw; 
-}
-
-.ul a{
-  text-decoration: none;
 }
 
 .linha{
@@ -40,7 +42,6 @@ body{
     width: 8vw;
     border-radius: 8vw;
     background-color: #7E5454;
-    color: #FFF;
     text-align: center;
     padding: 0.5vw;
     font-size: 1.1vw;
