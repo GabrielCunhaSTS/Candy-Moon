@@ -108,7 +108,7 @@
 .img-produto {
     width: 100%;
     border-radius: 0.6vw;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .img-botao {
