@@ -6,6 +6,7 @@
     <link rel="shortcut icon" href="../img/Logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="../css/main.css" />
     <link rel="stylesheet" href="../css/cardapio.css" />
+    <script src="/Js/filtro.js"></script>
     <title>Candy Moon</title>
   </head>
   <body>
@@ -22,7 +23,6 @@
             </nav>
         </header>
 
-
         <section class="textInicial">
             <h1 class="title">
                 Seus doces com o melhor preço
@@ -35,30 +35,30 @@
                 filtrar
             </div>
             <div class="doce">
-                <img src="../img/trufa.png" alt="">
+                <img src="../img/trufa.png" data-filter="trufa" alt="">
             </div>
             <div class="doce">
-                <img src="../img/brigadeiros.png" alt="">
+                <img src="../img/brigadeiros.png"  data-filter="brigadeiro" alt="">
             </div>
             <div class="doce">
-                <img src="../img/trufas-filtro.png" alt="">
+                <img src="../img/trufas-filtro.png" data-filter="alfajor" alt="">
             </div>
             <div class="doce">
-                <img src="../img/cones-filtro.png" alt="">
+                <img src="../img/cones-filtro.png" data-filter="cone" alt="">
             </div>
             <div class="doce">
-                <img src="../img/paodemel-filtro.png" alt="">
+                <img src="../img/paodemel-filtro.png" data-filter="pao de mel" alt="">
             </div>
             <div class="doce">
-                <img src="../img/bolo-filtro.png" alt="">
+                <img src="../img/bolo-filtro.png" data-filter="bolo" alt="">
             </div>
             <div class="doce">
-                <img src="../img/torta-filtro.png" alt="">
+                <img src="../img/torta-filtro.png" data-filter="torta"alt="">
             </div>
         </section>
 
         <div class="container-produtos">
-            <div class="produto">
+            <div class="produto" data-category="brigadeiro">
                 <img class="img-produto" src="../img/produto.png" alt="">
                 <div class="titulo-produto">
                     <p class="nome-produto">Brigadeiro de panela</p>
@@ -72,7 +72,7 @@
                     <img class="img-botao" src="../img/entrar-produto.png" alt="">
                 </div>
             </div>
-            <div class="produto">
+            <div class="produto" data-category="brigadeiro">
                 <img class="img-produto" src="../img/produto.png" alt="">
                 <div class="titulo-produto">
                     <p class="nome-produto">Brigadeiro de panela</p>
@@ -86,7 +86,7 @@
                     <img class="img-botao" src="../img/entrar-produto.png" alt="">
                 </div>
             </div>
-            <div class="produto">
+            <div class="produto" data-category="trufa">
                 <img class="img-produto" src="../img/produto.png" alt="">
                 <div class="titulo-produto">
                     <p class="nome-produto">Brigadeiro de panela</p>
@@ -100,7 +100,7 @@
                     <img class="img-botao" src="../img/entrar-produto.png" alt="">
                 </div>
             </div>
-            <div class="produto">
+            <div class="produto" data-category="trufa">
                 <img class="img-produto" src="../img/produto.png" alt="">
                 <div class="titulo-produto">
                     <p class="nome-produto">Brigadeiro de panela</p>
@@ -114,7 +114,7 @@
                     <img class="img-botao" src="../img/entrar-produto.png" alt="">
                 </div>
             </div>
-            <div class="produto">
+            <div class="produto" data-category="alfajor">
                 <img class="img-produto" src="../img/produto.png" alt="">
                 <div class="titulo-produto">
                     <p class="nome-produto">Brigadeiro de panela</p>
@@ -128,7 +128,7 @@
                     <img class="img-botao" src="../img/entrar-produto.png" alt="">
                 </div>
             </div>
-            <div class="produto">
+            <div class="produto" data-category="cone">
                 <img class="img-produto" src="../img/produto.png" alt="">
                 <div class="titulo-produto">
                     <p class="nome-produto">Brigadeiro de panela</p>
@@ -142,7 +142,7 @@
                     <img class="img-botao" src="../img/entrar-produto.png" alt="">
                 </div>
             </div>
-            <div class="produto">
+            <div class="produto" data-category="bolo">
                 <img class="img-produto" src="../img/produto.png" alt="">
                 <div class="titulo-produto">
                     <p class="nome-produto">Brigadeiro de panela</p>
@@ -156,7 +156,7 @@
                     <img class="img-botao" src="../img/entrar-produto.png" alt="">
                 </div>
             </div>
-            <div class="produto">
+            <div class="produto" data-category="torta">
                 <img class="img-produto" src="../img/produto.png" alt="">
                 <div class="titulo-produto">
                     <p class="nome-produto">Brigadeiro de panela</p>
@@ -170,7 +170,7 @@
                     <img class="img-botao" src="../img/entrar-produto.png" alt="">
                 </div>
             </div>
-            <div class="produto">
+            <div class="produto" data-category="torta">
                 <img class="img-produto" src="../img/produto.png" alt="">
                 <div class="titulo-produto">
                     <p class="nome-produto">Brigadeiro de panela</p>
@@ -184,7 +184,7 @@
                     <img class="img-botao" src="../img/entrar-produto.png" alt="">
                 </div>
             </div>
-            <div class="produto">
+            <div class="produto" data-category="pao de mel">
                 <img class="img-produto" src="../img/produto.png" alt="">
                 <div class="titulo-produto">
                     <p class="nome-produto">Brigadeiro de panela</p>

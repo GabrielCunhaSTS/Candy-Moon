@@ -249,15 +249,26 @@ body{
     background-color: #3D2929;
     color: #FFD8C0;
     border: none;
-    padding: 10px 15px;
+    padding: 15px 15px;
     cursor: pointer;
     font-size: 18px;
-    border-radius: 5px;
+    border-radius: 50%;
     z-index: 10;
 }
 
-#prev { left: 5vw; }
-#next { right: 5vw; }
+button img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.3vw;
+}
+
+#prev { 
+    left: 5vw; 
+}
+#next { 
+    right: 5vw; 
+}
 
 /* Fim do carrossel */
 
@@ -272,7 +283,7 @@ body{
     text-align: center;
     justify-content: center;
     background-color: #3D2929;
-    width: 30vw;
+    width: 35vw;
     padding: 0.8vw;
     color: #FFF;
     font-family: 'Yeseva One', cursive;    
@@ -307,6 +318,20 @@ body{
     width: 20vw;
     height: 32vw;
     border-radius: 2vw;
+    position: relative;
+}
+
+.medalha {
+    position: absolute;
+    top: 1.6vw;
+    right: -5.5vw;
+    width: 12vw;
+}
+
+.medalha img {
+    width: 100%;
+    height: auto;
+    max-width: 5vw;
 }
 
 .card img{
@@ -396,6 +421,7 @@ body{
 
 
 .colum{
+    width: 55vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -456,7 +482,7 @@ body{
 
 iframe {
     width: 30.8vw;
-    height: 19vw;
+    height: 17.7vw;
     border-radius: 1.04vw;            
     border: 0.31vw solid #482E2E;      
 }
@@ -574,6 +600,10 @@ iframe {
     font-weight: bold;
     font-size: 2vw;
     font-family: 'Yeseva One', cursive;
+}
+
+.hidden {
+  display: none !important;
 }
 
 .card-text a {
