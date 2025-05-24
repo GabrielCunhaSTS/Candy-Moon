@@ -1,6 +1,6 @@
-@import url('https://www.dafont.com/pt/bright-2.font'); /*  font-family: 'Bright DEMO', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap'); /* font-family: "Lexend Deca", sans-serif; */
 @import url('https://www.dafont.com/pt/magic-retro.font'); /*  font-family: 'Magic Retro',sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 
 
 body{
@@ -17,8 +17,9 @@ body{
     justify-items: center;
     flex-direction: row;
     align-items: center;
-    gap: 5vw;
+    gap: 7vw;
     height: 6vw;
+    padding: 0.7vw;
     background-color: #FFE1CF;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     font-family: "Lexend Deca", sans-serif;
@@ -39,12 +40,12 @@ body{
     display: flex;
     justify-content: center;
     text-decoration: none;
-    width: 8vw;
+    width: 10vw;
     border-radius: 8vw;
     background-color: #7E5454;
     text-align: center;
-    padding: 0.5vw;
-    font-size: 1.1vw;
+    padding: 1vw;
+    font-size: 1.4vw;
 }
 
 .linha:hover{
@@ -54,13 +55,12 @@ body{
 }
 
 .logo{
-     width:5vw;
-     height: 5vw;    
+    width: 6.3vw;
 }
 
 .icon{
-    width: 2vw;
-    height: 2vw;
+    width: 3vw;
+    height: 3vw;
     background-color: #7E5454;
     padding: 0.5vw;
     border-radius: 2vw;
@@ -75,16 +75,16 @@ body{
 
 .textInicial{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: row;
     margin-left: 5vw;
     margin-top: 5vw;
 }
 
 .title{
-    font-family: 'Bright DEMO', sans-serif;
+    font-family: 'Yeseva One', cursive;
     font-weight: 500;
-    font-size: 9vw;
+    font-size: 8.5vw;
     color: #3D2929;
 }
 
@@ -238,7 +238,7 @@ body{
     margin-top: 19vw;
     font-size: 3vw;
     transition: 2s;
-    font-family: 'Bright DEMO', sans-serif;
+    font-family: 'Yeseva One', cursive;
     font-weight: 300;
 }
 
@@ -275,7 +275,7 @@ body{
     width: 30vw;
     padding: 0.8vw;
     color: #FFF;
-    font-family: 'Bright DEMO', sans-serif;
+    font-family: 'Yeseva One', cursive;    
     font-size: 4vw;
     letter-spacing: 4px;
     font-weight: 500;
@@ -328,7 +328,7 @@ body{
 .imgText h5{
     font-size: 1.7vw;
     margin-top: -0.2vw;
-    font-family: 'Bright DEMO', sans-serif;
+    font-family: 'Yeseva One', cursive;    
     color: #FFF;
     letter-spacing: 4px;
     font-weight: 400;
@@ -338,13 +338,13 @@ body{
     color: #FFF;
     width: 18vw;
     margin-top: -5vw;
-    font-family: "Lexend Deca", sans-serif;
+    font-family: 'Yeseva One', cursive;
     font-weight: 300;
 }
 
 .compra{
     padding: 0.5vw;
-    font-family: 'Bright DEMO', sans-serif;
+    font-family: 'Yeseva One', cursive;
     width: 12vw;
     border-radius: 5vw;
     border: none;
@@ -384,12 +384,14 @@ body{
 .caixinha h5 {
     font-size: 1.41vw;
     margin: 0.26vw 0;
+    font-family: 'Yeseva One', cursive;
 }
 
 .caixinha p {
     font-size: 0.94vw;
     margin: 0;
     word-break: break-word;
+    font-family: 'Yeseva One', cursive;
 }
 
 
@@ -416,22 +418,24 @@ body{
 }
 
 .formulario h2 {
-    font-size: 5.73vw;
+    font-size: 4vw;
     margin: 0 0 0.52vw 0;
     padding: 0;
+    font-family: 'Yeseva One', cursive;
 }
 
 .formulario legend {
     width: 75%;
     font-size: 1.30vw;                 
     margin-bottom: 1.04vw;             
-    font-weight: bold;
     display: block;
+    font-family: 'Yeseva One', cursive;
 }
 
 .formulario form p {
     margin: 1.04vw 0 0.42vw;
     font-weight: bold;
+    font-family: 'Yeseva One', cursive;
 }
 
 .formulario input,
@@ -569,6 +573,7 @@ iframe {
     width: 100%;
     font-weight: bold;
     font-size: 2vw;
+    font-family: 'Yeseva One', cursive;
 }
 
 .card-text a {

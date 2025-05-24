@@ -1,0 +1,128 @@
+.a{
+    background-color: #EFB8B9;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5vw;
+    padding: 2vw;
+}
+
+.filtros{
+    display: flex;
+}
+
+.doce {
+    width: 7vw;
+    height: 7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #582B2B;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.doce:hover, .btn-filter:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.doce img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.btn-filter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #582B2B;
+    color: #fff;
+    border-radius: 2.5vw;
+    font-size: 3vw;
+    padding: 1.5vw 5vw;
+    font-family: 'Yeseva One', cursive;
+}
+
+.container-produtos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 2vw;
+    padding: 8vw 2vw;
+    justify-items: center;
+}
+
+.produto {
+    border-radius: 1.2vw;
+    background-color: #fff;
+    border: #5e2b24 0.4vw solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    padding: 1vw;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.produto:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.titulo-produto {
+    color: #5e2b24;
+    margin: 0.5vw 0;
+}
+
+.nome-produto {
+    font-size: 1.3vw;
+    font-weight: bold;
+    margin-bottom: 0.2vw;
+    font-family: 'Yeseva One', cursive;
+}
+
+.descricao-produto {
+    font-size: 0.8vw;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+}
+
+.preço-produto {
+    color: #5e2b24;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2vw;
+}
+
+.b{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5vw;
+}
+
+.img-produto {
+    width: 100%;
+    border-radius: 0.6vw;
+    object-fit: cover;
+}
+
+.img-botao {
+    width: 2.5vw;
+    border-radius: 50%;
+}
+
+.preço {
+    font-size: 1.3vw;
+    font-weight: 600;
+    font-family: 'Yeseva One', cursive;
+}
+
+.unidade {
+    font-size: 0.7vw;
+    font-family: 'Yeseva One', cursive;
+}
