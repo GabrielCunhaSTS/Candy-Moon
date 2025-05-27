@@ -24,3 +24,54 @@ btnFilter.addEventListener('click', () => {
     });
 });
 });
+
+
+window.onload = function () {
+const modal = document.getElementById("modal-produto");
+const modalImg = document.getElementById("modal-img");
+const modalTitulo = document.getElementById("modal-titulo");
+const modalDescricao = document.getElementById("modal-descricao");
+const modalPreco = document.getElementById("modal-preco");
+const closeBtn = document.querySelector(".close-btn");
+
+document.querySelectorAll('.produto').forEach(produto => {
+    produto.addEventListener('click', () => {
+    const imgSrc = produto.querySelector('.img-produto').src;
+    const titulo = produto.querySelector('.titulo-produto .nome-produto').textContent;
+    const descricao = produto.querySelector('.titulo-produto .descricao-produto').textContent;
+    const preco = produto.querySelector('.preço-produto .preço').textContent;
+
+    modalImg.src = imgSrc;
+    modalTitulo.textContent = titulo;
+    modalDescricao.textContent = descricao;
+    modalPreco.textContent = preco;
+
+    modal.style.display = "block";
+    });
+});
+
+closeBtn.addEventListener('click', () => {
+    modal.style.display = "none";
+});
+
+window.addEventListener('click', (event) => {
+    if (event.target === modal) {
+    modal.style.display = "none";
+    }
+});
+
+const btnAdicionar = document.querySelector(".adicionar-carrinho");
+btnAdicionar.addEventListener('click', () => {
+    modal.style.display = "none";
+    mostrarToast();
+});
+
+function mostrarToast() {
+    const toast = document.getElementById("toast");
+    toast.classList.add("show");
+
+    setTimeout(() => {
+    toast.classList.remove("show");
+    }, 3000);
+}
+};
