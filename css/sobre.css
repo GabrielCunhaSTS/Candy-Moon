@@ -79,10 +79,22 @@ h2
     flex-direction: column;
     justify-self: center;
     align-items: center;
+    margin-bottom: 10vw;
 }
 
-video
+#sticker1
 {
-    width: 50vw;
-    margin-bottom: 5vw;
+    width: 13vw;
+    position: absolute;
+    top: 277%;
+    left: 28%;
 }
+
+#sticker2
+{
+    width: 15vw;
+    position: absolute;
+    top: 315%;
+    right: 25%;
+}
+
