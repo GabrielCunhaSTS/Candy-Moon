@@ -152,22 +152,22 @@
     max-width: 31.25vw;
     position: relative;
     text-align: left;
-    border: #7b1f1f 0.4vw solid;
+    border: #3D2929 0.4vw solid;
 }
 
 .close-btn.fechar {
+    width: 1.5vw;
+    height: 1.5vw;
     padding-bottom: 1vw;
     position: absolute;
-    top: 0.2vw;
+    top: 0.9vw;
     left: 0.7vw;
-    font-size: 2.25vw;
-    font-weight: bold;
-    color: #a52a2a;
+    color: #3D2929;
     cursor: pointer;
 }
 
-.modal-content img {
-    margin-top: 1vw;
+.modal-content #modal-img {
+    margin-top: 1.8vw;
     margin-bottom: 1.25vw; 
     width: 100%;
     height: 20vw;
@@ -179,6 +179,11 @@
     padding: 0 0.625vw; 
 }
 
+.modal-info h2{
+    font-size: 1.7vw;
+    color: #3D2929;
+}
+
 .modal-info h2,
 .modal-info p {
     margin: 0.5vw 0; 
@@ -187,7 +192,7 @@
 
 .preco-modal {
     font-weight: bold;
-    color: #7b1f1f;
+    color: #FF9092;
     font-size: 1.125vw;
 }
 
@@ -219,20 +224,105 @@
 .adicionar-carrinho {
     display: flex;
     align-items: center;
-    background-color: #7b1f1f;
+    background-color: #7E5454;
     color: white;
     border: none;
     border-radius: 0.5vw;
     cursor: pointer;
     font-size: 1vw;
     font-weight: 500;
-    gap: 1vw;
+    gap: 0.4vw;
+    font-family: 'Yeseva One', cursive;
+    padding-right: 0.7vw;
+}
+
+
+.adicionar-carrinho img{
+    width: 5vw;
+    padding: 0.4vw;
+    padding-left: 0.6vw;
 }
 
 .adicionar-carrinho .carrinho {
     width: 2vw;
     height: 2vw;
 }
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Yeseva One', cursive;
+}
+
+.perfil-modal {
+    max-width: 24vw;
+    margin: auto;
+    padding: 3vw;
+    background: white;
+    border-radius: 1.5vw;
+    text-align: center;
+    position: relative;
+}
+
+.foto-perfil {
+    width: 7vw;
+    height: 7vw;
+    border-radius: 50%;
+    border: 0.5vw solid #f4c6c6;
+    object-fit: cover;
+}
+
+.fechar-perfil {
+    width: 1.5vw;
+    position: absolute;
+    top: 1.5vw;
+    right: 1.5vw;
+    cursor: pointer;
+}
+
+.btn-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    width: 80%;
+    margin: 1vw auto;
+    padding: 0.5vw 0;
+    background: #582B2B;
+    color: #fff;
+    border-radius: 1.5vw;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.8vw;
+}
+
+.btn-login:hover {
+    background: #422020;
+}
+
+a {
+    color: #582B2B;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1vw;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.modal-content p {
+    margin-top: 2vw;
+    font-size: 1vw;
+    }
 
 
 /* TABLET */
