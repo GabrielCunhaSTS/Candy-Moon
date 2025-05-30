@@ -1,0 +1,34 @@
+.faixa{
+    width: 100%;
+    background-color: #EFB8B9;
+    padding: 1.5vw;
+}
+
+.container-card{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-carrinho{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+}
+
+.preco{
+    display: flex;
+    flex-direction: row;
+}
+
+.qtd{
+    display: flex;
+    flex-direction: row;
+}
+
+.qtd img{
+    width: 2vw;
+}
