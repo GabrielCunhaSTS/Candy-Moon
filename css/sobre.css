@@ -82,19 +82,24 @@ h2
     margin-bottom: 10vw;
 }
 
+#video div
+{
+    margin: 0vw;
+}
+
 #sticker1
 {
     width: 13vw;
     position: absolute;
-    top: 277%;
-    left: 28%;
+    top: 135vw;
+    left: 26vw;
 }
 
 #sticker2
 {
     width: 15vw;
     position: absolute;
-    top: 315%;
-    right: 25%;
+    top: 155vw;
+    right: 27vw;
 }
 
