@@ -1,0 +1,477 @@
+
+
+.divisa{
+    width: 100%;
+    background-color: #FFD8C0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8vw;
+    margin-top: 5vw;
+}
+
+.imgSub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 1.2vw;
+    color: #582B2B;
+}
+
+.icones{
+   width: 12vw;
+   padding: 3vw;
+    background-color: #EFB8B9;
+    border-radius: 10vw;
+    align-self: center;
+}
+
+/* carrossel */
+
+.container {
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    padding: 40px 0;
+    margin-top: 5vw;
+}
+
+
+.card-wrapper {
+      overflow-x: auto;
+      scroll-behavior: smooth;
+      width: 90vw;
+      margin: auto;
+}
+
+.card-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+
+.card-list {
+    display: flex;
+    gap: 2vw;
+    padding: 0;
+    margin: 0;
+    transition: transform 0.5s ease-in-out;
+}
+
+#card-item {
+    list-style: none;
+    flex: 0 0 21vw; /* largura de cada card (3 cabem em 90vw com gap) */
+    height: 25vw;
+}
+
+.card-item7{
+    background-image: url(../img/image.png);
+}
+
+.card-item8{
+    background-image: url(../img/image-1.png);
+
+}
+
+.card-item9{
+    background-image: url(../img/image-2.png);
+
+}
+
+.card-item10{
+    background-image: url(../img/image-3.png);
+}
+
+.card-item11{
+    background-image: url(../img/image4.png);
+}
+
+.card-item12{
+    background-image: url(../img/image-5.png);
+}
+
+.card-item13{
+    background-image: url(../img/image-6.png);
+}
+
+.card-item14{
+    background-image: url(../img/image-7.png);
+}
+
+
+.card-item7,
+.card-item8,
+.card-item9,
+.card-item10,
+.card-item11,
+.card-item12,
+.card-item13,
+.card-item14
+{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0.5vw;
+}
+
+
+.card-link {
+    display: block;
+      padding: 18px;
+    border-radius: 8vw;
+      text-decoration: none;
+      color: inherit;
+}
+
+.card-link:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.card-image {
+    width: 100%;
+    object-fit: cover;
+}
+
+.badge{
+    color: #FFF;
+    font-size: 18px;
+    text-align:center;
+    display:block;
+    margin-top: 19vw;
+    font-size: 3vw;
+    transition: 2s;
+    font-family: 'Yeseva One', cursive;
+    font-weight: 300;
+}
+
+#prev, #next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #3D2929;
+    color: #FFD8C0;
+    border: none;
+    padding: 15px 15px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+button img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.3vw;
+}
+
+#prev { 
+    left: 5vw; 
+}
+#next { 
+    right: 5vw; 
+}
+
+/* Fim do carrossel */
+
+.banner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.queridinho{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #3D2929;
+    width: 35vw;
+    padding: 0.8vw;
+    color: #FFF;
+    font-family: 'Yeseva One', cursive;    
+    font-size: 4vw;
+    letter-spacing: 4px;
+    font-weight: 500;
+    border-radius: 0.5vw;
+}
+
+.caixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8vw;
+    margin-top: 2vw;
+}
+
+.card, .card3{
+    margin-top: 7vw;
+}
+
+.card, 
+.card2, 
+.card3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    background-color: #3D2929;
+    width: 20vw;
+    height: 32vw;
+    border-radius: 2vw;
+    position: relative;
+}
+
+.medalha {
+    position: absolute;
+    top: 1.6vw;
+    right: -5.5vw;
+    width: 12vw;
+}
+
+.medalha img {
+    width: 100%;
+    height: auto;
+    max-width: 5vw;
+}
+
+.card img{
+    width: 20vw;
+    margin-top: -3.5vw;
+}
+
+.card2 img{
+    width: 20.7vw;
+    margin-top: -3.5vw;
+}
+
+.card3 img{
+    width: 20vw;
+    margin-top: -3.5vw;
+}
+
+
+.imgText h5{
+    font-size: 1.7vw;
+    margin-top: -0.2vw;
+    font-family: 'Yeseva One', cursive;    
+    color: #FFF;
+    letter-spacing: 4px;
+    font-weight: 400;
+}
+
+.miniText{
+    color: #FFF;
+    width: 18vw;
+    margin-top: -5vw;
+    font-family: 'Yeseva One', cursive;
+    font-weight: 300;
+}
+
+.compra{
+    padding: 0.5vw;
+    font-family: 'Yeseva One', cursive;
+    width: 12vw;
+    border-radius: 5vw;
+    border: none;
+    font-size: 1.2vw;
+    background-color: #FFC6C7;
+    color: #582B2B;
+}
+
+.dupla{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 5vw;
+}
+
+.caixinha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #7E5454;
+    border: 6px solid #482E2E;
+    color: #FFF;
+    border-radius: 15px;
+    width: 11.5vw;
+    height: 11.5vw;
+    padding: 0.7vw;
+    text-align: center;
+}
+
+.iconesForm {
+    width: 5vw;
+    margin-bottom: 0.8vw;
+}
+
+.caixinha h5 {
+    font-size: 1.41vw;
+    margin: 0.26vw 0;
+    font-family: 'Yeseva One', cursive;
+}
+
+.caixinha p {
+    font-size: 0.94vw;
+    margin: 0;
+    word-break: break-word;
+    font-family: 'Yeseva One', cursive;
+}
+
+
+.colum{
+    width: 55vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 5vw;
+    margin-top: 10vw;
+}
+
+
+.formulario {
+    width: 52%;
+}
+
+.formulario h2 {
+    font-size: 4vw;
+    margin: 0 0 0.52vw 0;
+    padding: 0;
+    font-family: 'Yeseva One', cursive;
+}
+
+.formulario legend {
+    width: 75%;
+    font-size: 1.30vw;                 
+    margin-bottom: 1.04vw;             
+    display: block;
+    font-family: 'Yeseva One', cursive;
+}
+
+.formulario form p {
+    margin: 1.04vw 0 0.42vw;
+    font-weight: bold;
+    font-family: 'Yeseva One', cursive;
+}
+
+.formulario input,
+.formulario textarea {
+    width: 75%;
+    padding: 0.78vw;                  
+    border-radius: 0.52vw;             
+    border: 0.16vw solid #482E2E;     
+    color: #7E5454;
+    background-color: #FFDDC6;
+    font-size: 1.04vw;                 
+    margin-bottom: 1.04vw;             
+}
+
+.formulario p {
+    font-size: 1.56vw;               
+}
+
+iframe {
+    width: 30.8vw;
+    height: 17.7vw;
+    border-radius: 1.04vw;            
+    border: 0.31vw solid #482E2E;      
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 6vw;
+    padding-bottom: 10vw;
+}
+
+.card-redeSocial {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #3D2929;
+    position: relative;
+    width: 25vw;
+    height: 29vw;
+    border-radius: 0.9vw;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #FFF;
+}
+
+.card-redeSocial:hover {
+    transform: scale(1.06);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-redeSocial::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 0;
+}
+
+.icon-circle img {
+    width: 12vw;
+    height: 12vw;
+}
+
+.card-text {
+    color: #FFE7E1;
+    width: 100%;
+    font-weight: bold;
+    font-size: 2vw;
+    font-family: 'Yeseva One', cursive;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.card-text a {
+    color: #FFE7E1;
+}
+
+.subtitle {
+    color: #FFE7E1;
+    font-size: 1.2vw;
+    font-weight: normal;
+}
+
+.card-instagram {
+  background-image: url('../img/cone-card.jpg');
+}
+
+.card-whatsapp {
+  background-image: url('../img/cones-card.jpg');
+}
+
+.card-ifood {
+  background-image: url('../img/paodemel-card.jpg');
+}
+
+.card-redeSocial .icon-circle,
+.card-redeSocial .card-text {
+    position: relative;
+    z-index: 1;
+}
+
