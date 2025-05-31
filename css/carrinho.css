@@ -167,7 +167,7 @@
 .complementos input {
     padding: 0.8vw;
     font-size: 1vw;
-    border: 1px solid #ccc;
+    border: #422121 0.2vw solid;    
     border-radius: 0.5vw;
 }
 
@@ -187,7 +187,7 @@
     padding: 1vw;
     font-size: 1vw;
     border-radius: 0.5vw;
-    border: 1px solid #ccc;
+    border: #422121 0.2vw solid; 
 }
 
 .btn-pagamento {
@@ -274,4 +274,15 @@
     visibility: visible;
     opacity: 1;
     bottom: 3.125vw;
+}
+
+.btn-validar-cupom{
+    display: none;
+    padding: 0.7vw;
+    background-color: #422121;
+    border: none;
+    border-radius: 0.6vw;
+    font-size: 1.2vw;
+    color: #fff;
+    cursor: pointer;
 }

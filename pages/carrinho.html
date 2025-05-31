@@ -80,12 +80,12 @@
                     </div>
                 </div>
                 <div class="qtd">
-                    <div class="btn-mais">
-                        <img src="../img/plus.png" alt="Aumentar quantidade">
+                    <div class="btn-menos">
+                        <img src="../img/minus.png" alt="Aumentar quantidade">
                     </div>
                     <p>1</p>
-                    <div class="btn-menos">
-                        <img src="../img/minus.png" alt="Diminuir quantidade">
+                    <div class="btn-mais">
+                        <img src="../img/plus.png" alt="Diminuir quantidade">
                     </div>
                 </div>
                 <div class="lixeira">
@@ -105,12 +105,12 @@
                     </div>
                 </div>
                 <div class="qtd">
-                    <div class="btn-mais">
-                        <img src="../img/plus.png" alt="Aumentar quantidade">
+                    <div class="btn-menos">
+                        <img src="../img/minus.png" alt="Aumentar quantidade">
                     </div>
                     <p>1</p>
-                    <div class="btn-menos">
-                        <img src="../img/minus.png" alt="Diminuir quantidade">
+                    <div class="btn-mais">
+                        <img src="../img/plus.png" alt="Diminuir quantidade">
                     </div>
                 </div>
                 <div class="lixeira">
@@ -120,19 +120,24 @@
         </div>
         <div class="boleto">
             <div class="subtotais">
-                <p><span>Sub-total</span><span>R$ 80,00</span></p>
-                <p><span>Desconto</span><span>R$ 10,00</span></p>
+                <p><span>Sub-total</span><span  class="subtotal-valor"></span></p>
+                <p><span>Desconto</span><span class="desconto-valor"></span></p>
                 <div class="complementos">
                     <div class="frete">
                         <label for="">Calcule seu frete</label>
-                        <input type="text" placeholder="Digite seu cep">
+                        <input type="text" placeholder="Digite seu cep" class="campo-cep">
                     </div>
                     <div class="cupom">
                         <label for="">Adicione seu cupom</label>
-                        <input type="text" placeholder="Código do cupom">
+                        <div style="display: flex; align-items: center; gap: 8px;">
+                            <input type="text" placeholder="Código do cupom" class="campo-cupom"/>
+                            <button type="button" class="btn-validar-cupom">Aplicar</button>
+                        </div>
+                        <h6 class="mensagem-cupom" style="color: green; font-size: 0.9em; margin: 4px 0 0 0; display: none;"></h6>
                     </div>
                 </div>
-                <p><span>Total com frete</span><span>R$ 70,00</span></p>
+                <p><span>Frete</span><span class="frete-valor"></span></p>
+                <p><span>Total com frete</span><span class="total-valor"></span></p>
                 <div class="forma-pagamento">
                     <label for="metodo">Selecione o método de pagamento</label>
                     <select id="metodo">
@@ -182,6 +187,7 @@
         <script src="../Js/pagamento.js" href="../Js/pagamento.js"></script>
         <script src="../Js/filtro.js" href="../Js/filtro.js"></script>
         <script src="../Js/perfil.js" href="../Js/perfil.js"></script>
+        <script src="../Js/valores.js" href="../Js/valores.js"></script>
 
 </body>
 
