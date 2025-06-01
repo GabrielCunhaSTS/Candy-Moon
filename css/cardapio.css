@@ -129,7 +129,6 @@
     font-family: 'Yeseva One', cursive;
 }
 
-
 .modal {
     display: none;
     position: fixed;
@@ -196,31 +195,6 @@
     font-size: 1.125vw;
 }
 
-.toast {
-    visibility: hidden;
-    min-width: 15.625vw;
-    background-color: #a52a2a;
-    color: #fff;
-    text-align: center;
-    border-radius: 1vw;
-    padding: 1.5vw;
-    position: fixed;
-    z-index: 1000;
-    left: 50%;
-    bottom: 1.875vw;
-    transform: translateX(-50%);
-    font-weight: bold;
-    font-size: 1.2vw;
-    opacity: 0;
-    transition: opacity 0.5s, bottom 0.5s;
-}
-
-.toast.show {
-    visibility: visible;
-    opacity: 1;
-    bottom: 3.125vw;
-}
-
 .adicionar-carrinho {
     display: flex;
     align-items: center;
@@ -248,68 +222,84 @@
     height: 2vw;
 }
 
-/* TABLET */
-@media (max-width: 1024px) {
-    .a {
-        flex-direction: row !important;
-        flex-wrap: wrap;
-        gap: 3vw;
+.toast {
+    visibility: hidden;
+    min-width: 15.625vw;
+    background-color: #a52a2a;
+    color: #fff;
+    text-align: center;
+    border-radius: 1vw;
+    padding: 1.5vw;
+    position: fixed;
+    z-index: 1000;
+    left: 50%;
+    bottom: 1.875vw;
+    transform: translateX(-50%);
+    font-weight: bold;
+    font-size: 1.2vw;
+    opacity: 0;
+    transition: opacity 0.5s, bottom 0.5s;
+}
+
+.toast.show {
+    visibility: visible;
+    opacity: 1;
+    bottom: 3.125vw;
+}
+
+@media (max-width: 768px) {
+    .modal{
+        display: flex;
+        align-content: center;
+    }
+    .modal-content {
+        width: 90%;
+        max-width: 90%;
         padding: 4vw;
+        border-radius: 2vw;
+        border-width: 1vw;
     }
 
-    .doce {
-        width: 10vw;
-        height: 10vw;
+    .close-btn.fechar {
+        width: 4vw;
+        height: 4vw;
+        top: 2vw;
+        left: 2vw;
     }
 
-    .btn-filter {
-        font-size: 4vw;
-        padding: 2vw 6vw;
-        border-radius: 3vw;
+    .modal-content #modal-img {
+        height: 40vw;
+        margin-top: 4vw;
+        margin-bottom: 4vw;
+        border-radius: 2vw;
     }
 
-    .container-produtos {
-        grid-template-columns: repeat(2, 1fr);
-        row-gap: 4vw;
-        padding: 10vw 4vw;
+    .modal-info {
+        padding: 0 2vw;
     }
 
-    .produto {
-        width: 35vw;
-        padding: 2vw;
+    .modal-info h2 {
+        font-size: 4.5vw;
     }
 
-    .nome-produto {
-        font-size: 2.5vw;
-    }
-
-    .descricao-produto {
-        font-size: 1.5vw;
-    }
-
-    .preço {
-        font-size: 2vw;
-    }
-
-    .unidade {
-        font-size: 1vw;
-    }
-
-    .modal-content img {
-        height: 30vw;
+    .modal-info p {
+        font-size: 3.5vw;
     }
 
     .preco-modal {
-        font-size: 2vw;
+        font-size: 4vw;
     }
 
     .adicionar-carrinho {
-        font-size: 2vw;
+        font-size: 3.5vw;
+        border-radius: 1.5vw;
+        padding: 2vw;
+        gap: 1vw;
     }
 
     .adicionar-carrinho .carrinho {
-        width: 3vw;
-        height: 3vw;
+        width: 6vw;
+        height: 6vw;
     }
 }
 
@@ -367,32 +357,6 @@
 
     .img-botao {
         width: 6vw;
-    }
-
-    .modal-content {
-        padding: 3vw;
-        width: 90%;
-    }
-
-    .modal-content img {
-        height: 40vw;
-    }
-
-    .close-btn.fechar {
-        font-size: 6vw;
-    }
-
-    .preco-modal {
-        font-size: 4vw;
-    }
-
-    .adicionar-carrinho {
-        font-size: 3vw;
-    }
-
-    .adicionar-carrinho .carrinho {
-        width: 5vw;
-        height: 5vw;
     }
 
     .toast {

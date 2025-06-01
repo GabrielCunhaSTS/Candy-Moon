@@ -233,3 +233,179 @@ body{
     margin-top: 2vw;
     font-size: 1vw;
 }
+
+.hamburger {
+  display: none;
+  font-size: 10vw;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #3D2929;
+  z-index: 1001;
+}
+
+.icon-mobile {
+  display: none;
+}
+
+.icon-desktop {
+  display: inline-block;
+}
+
+/* TABLET */
+@media (max-width: 1024px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20vw;
+    background-image: none; 
+    background-size: cover;
+  }
+
+  .logo-footer {
+    width: 50%;
+    margin-bottom: 5vw;
+  }
+
+  .logo-footer img {
+    width: 40vw;
+  }
+
+  .redes-sociais {
+    flex-direction: column;
+    gap: 3vw;
+    margin-bottom: 4vw;
+  }
+
+  .redes-sociais a {
+    font-size: 3vw;
+    gap: 2vw;
+  }
+
+  .redes-sociais img {
+    width: 4vw;
+  }
+
+  .paginas a {
+    font-size: 3vw;
+  }
+
+  .footer a {
+    font-size: 2.5vw;
+  }
+}
+
+@media (max-width: 768px) {
+ .navBar {
+    display: flex;
+    align-items: center;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    position: relative;
+  }
+
+  .hamburger {
+    display: flex;
+    font-size: 10vw;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #3D2929;
+    z-index: 1001;
+    margin-left: auto;
+  }
+
+  .logo {
+    padding-top: -25vw;
+    width: 20vw;
+  }
+
+  .ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 5vw;
+    position: absolute;
+    top: 18vw;
+    left: 0;
+    width: 100%;
+    background-color: #FFE1CF;
+    padding: 4vw 0;
+    display: none;
+  }
+
+  .ul.active {
+    display: flex;
+  }
+
+  .linha {
+    font-size: 5vw;
+    padding: 2vw 4vw;
+    width: auto;
+    border-radius: 3vw;
+  }
+
+  .icon {
+    display: flex;
+  }
+
+  .icon-desktop {
+    display: none;
+  }
+
+  .icon-mobile {
+    display: inline-block;
+  }
+
+  .icon-mobile img{
+    width: 5vw;
+    height: 5vw;
+  }
+  .textInicial {
+    align-items: center;
+    text-align: center;
+    margin: 8vw 5vw;
+  }
+
+  .title {
+    font-size: 6.5vw;
+    max-width: 90%;
+  }
+
+  .imgIni {
+    width: 70vw;
+    margin-bottom: 5vw;
+  }
+
+   .footer {
+    padding: 8vw 5vw;
+    background-image: none; 
+  }
+
+  .logo-footer {
+    width: 70%;
+    margin-bottom: 6vw;
+  }
+
+  .logo-footer img {
+    width: 60vw;
+  }
+
+  .redes-sociais a {
+    font-size: 4vw;
+    gap: 3vw;
+  }
+
+  .redes-sociais img {
+    width: 6vw;
+  }
+
+  .paginas a {
+    font-size: 5vw;
+  }
+
+  .footer a {
+    font-size: 4vw;
+  }
+
+}

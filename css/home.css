@@ -35,7 +35,7 @@
     overflow-x: hidden;
     overflow-y: hidden;
     scroll-snap-type: x mandatory;
-    padding: 40px 0;
+    padding: 8vw 0;
     margin-top: 5vw;
 }
 
@@ -119,10 +119,10 @@
 
 .card-link {
     display: block;
-      padding: 18px;
+    padding: 1vw;
     border-radius: 8vw;
-      text-decoration: none;
-      color: inherit;
+    text-decoration: none;
+    color: inherit;
 }
 
 .card-link:hover {
@@ -137,7 +137,7 @@
 
 .badge{
     color: #FFF;
-    font-size: 18px;
+    font-size: 1.5vw;
     text-align:center;
     display:block;
     margin-top: 19vw;
@@ -154,9 +154,8 @@
     background-color: #3D2929;
     color: #FFD8C0;
     border: none;
-    padding: 15px 15px;
+    padding: 0.7vw 0.7vw;
     cursor: pointer;
-    font-size: 18px;
     border-radius: 50%;
     z-index: 10;
 }
@@ -193,7 +192,7 @@ button img{
     color: #FFF;
     font-family: 'Yeseva One', cursive;    
     font-size: 4vw;
-    letter-spacing: 4px;
+    letter-spacing: 0.4vw;
     font-weight: 500;
     border-radius: 0.5vw;
 }
@@ -260,14 +259,15 @@ button img{
     margin-top: -0.2vw;
     font-family: 'Yeseva One', cursive;    
     color: #FFF;
-    letter-spacing: 4px;
+    letter-spacing: 0.3vw;
     font-weight: 400;
 }
 
 .miniText{
+    font-size: 1vw;
     color: #FFF;
     width: 18vw;
-    margin-top: -5vw;
+    margin-top: -1.5vw;
     font-family: 'Yeseva One', cursive;
     font-weight: 300;
 }
@@ -297,9 +297,9 @@ button img{
     align-items: center;
     flex-direction: column;
     background-color: #7E5454;
-    border: 6px solid #482E2E;
+    border: 0.4vw solid #482E2E;
     color: #FFF;
-    border-radius: 15px;
+    border-radius: 1vw;
     width: 11.5vw;
     height: 11.5vw;
     padding: 0.7vw;
@@ -472,3 +472,4 @@ iframe {
     position: relative;
     z-index: 1;
 }
+
