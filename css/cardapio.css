@@ -10,6 +10,10 @@
 
 .filtros{
     display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    gap: 3vw;
 }
 
 .doce {
@@ -21,6 +25,11 @@
     background-color: #582B2B;
     border-radius: 50%;
     overflow: hidden;
+}
+
+
+.hidden {
+  display: none !important;
 }
 
 .doce:hover, .btn-filter:hover{
@@ -247,13 +256,17 @@
     bottom: 3.125vw;
 }
 
+.dropdown-filter {
+    display: none;
+}
+
 @media (max-width: 768px) {
     .modal{
         display: flex;
         align-content: center;
     }
     .modal-content {
-        width: 90%;
+        width: 80%;
         max-width: 90%;
         padding: 4vw;
         border-radius: 2vw;
@@ -307,22 +320,45 @@
 /* MOBILE */
 @media (max-width: 600px) {
     .a {
-        flex-direction: row !important;
-        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start;
         gap: 4vw;
-        margin-top: 10vw;
-        padding: 5vw;
+    }
+
+    .filtro-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 4vw;
+        font-size: 1vw;
+    }
+
+    .btn-filter {
+        font-size: 5vw;
+        padding: 3vw 6vw;
+        border-radius: 4vw;
+    }
+
+    .dropdown-filter {
+        display: block;
+        width: 90%;
+        font-size: 4.5vw;
+        padding: 2vw;
+        border-radius: 3vw;
+        border: none;
+        border: #422121 0.6vw solid; 
+        background: #FFDDC6;
+        font-family: 'Yeseva One', cursive;
+    }
+
+    .filtros {
+        display: none;
     }
 
     .doce {
         width: 15vw;
         height: 15vw;
-    }
-
-    .btn-filter {
-        font-size: 5vw;
-        padding: 3vw 7vw;
-        border-radius: 4vw;
     }
 
     .container-produtos {

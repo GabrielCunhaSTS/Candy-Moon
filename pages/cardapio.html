@@ -6,7 +6,7 @@
     <link rel="shortcut icon" href="../img/Logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="../css/main.css" />
     <link rel="stylesheet" href="../css/cardapio.css" />
-    <script src="../Js/filtro.js" href="../Js/filtro.js"></script>
+     <script src="../Js/filtro.js" defer></script>
     <title>Candy Moon</title>
   </head>
   <body>
@@ -79,29 +79,43 @@
         </section>
 
         <section class="a">
-            <div class="btn-filter">
-                filtrar
+            <div class="filtro-container">
+                <div class="btn-filter">filtrar</div>
+
+                <select class="dropdown-filter" aria-label="Filtro de doces">
+                    <option value="" selected disabled>Escolha um doce</option>
+                    <option value="trufa">Trufa</option>
+                    <option value="brigadeiro">Brigadeiro</option>
+                    <option value="alfajor">Alfajor</option>
+                    <option value="cone">Cone</option>
+                    <option value="pao de mel">Pão de Mel</option>
+                    <option value="bolo">Bolo</option>
+                    <option value="torta">Torta</option>
+                </select>
             </div>
-            <div class="doce">
-                <img src="../img/trufa.png" data-filter="trufa" alt="imagem de uma trufa">
-            </div>
-            <div class="doce">
-                <img src="../img/brigadeiros.png"  data-filter="brigadeiro" alt="imagem de uma caixa de brigadeiros">
-            </div>
-            <div class="doce">
-                <img src="../img/trufas-filtro.png" data-filter="alfajor" alt="imagem de um alfajor ao meio">
-            </div>
-            <div class="doce">
-                <img src="../img/cones-filtro.png" data-filter="cone" alt="imagem de um cone recheado">
-            </div>
-            <div class="doce">
-                <img src="../img/paodemel-filtro.png" data-filter="pao de mel" alt="imagem de um pão de mel">
-            </div>
-            <div class="doce">
-                <img src="../img/bolo-filtro.png" data-filter="bolo" alt="imagem de uma fatia de bolo">
-            </div>
-            <div class="doce">
-                <img src="../img/torta-filtro.png" data-filter="torta"alt="imagem de uma torta">
+
+            <div class="filtros">
+                <div class="doce">
+                    <img src="../img/trufa.png" data-filter="trufa" alt="imagem de uma trufa">
+                </div>
+                <div class="doce">
+                    <img src="../img/brigadeiros.png"  data-filter="brigadeiro" alt="imagem de uma caixa de brigadeiros">
+                </div>
+                <div class="doce">
+                    <img src="../img/trufas-filtro.png" data-filter="alfajor" alt="imagem de um alfajor ao meio">
+                </div>
+                <div class="doce">
+                    <img src="../img/cones-filtro.png" data-filter="cone" alt="imagem de um cone recheado">
+                </div>
+                <div class="doce">
+                    <img src="../img/paodemel-filtro.png" data-filter="pao de mel" alt="imagem de um pão de mel">
+                </div>
+                <div class="doce">
+                    <img src="../img/bolo-filtro.png" data-filter="bolo" alt="imagem de uma fatia de bolo">
+                </div>
+                <div class="doce">
+                    <img src="../img/torta-filtro.png" data-filter="torta"alt="imagem de uma torta">
+                </div>
             </div>
         </section>
 
@@ -277,8 +291,8 @@
             
         </footer>
 
-        <script src="../Js/filtro.js" href="../Js/filtro.js"></script>
         <script src="../Js/perfil.js" href="../Js/perfil.js"></script>
         <script src="../Js/menu.js" href="../Js/menu.js"></script>
+        <script src="../Js/filtro.js"></script>
     </body>
 </html>

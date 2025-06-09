@@ -1,31 +1,3 @@
-document.addEventListener("DOMContentLoaded", function () {
-const doces = document.querySelectorAll('.doce');
-const produtos = document.querySelectorAll('.produto');
-const btnFilter = document.querySelector('.btn-filter');
-
-doces.forEach(btn => {
-    btn.addEventListener('click', () => {
-    const filtro = btn.querySelector('img').dataset.filter;
-
-    produtos.forEach(produto => {
-        if (produto.dataset.category === filtro) {
-        produto.classList.remove('hidden');
-        } else {
-        produto.classList.add('hidden');
-        }
-    });
-    });
-});
-
-
-btnFilter.addEventListener('click', () => {
-    produtos.forEach(produto => {
-    produto.classList.remove('hidden');
-    });
-});
-});
-
-
 window.onload = function () {
 const modal = document.getElementById("modal-produto");
 const modalImg = document.getElementById("modal-img");
@@ -75,3 +47,48 @@ function mostrarToast() {
     }, 3000);
 }};
 
+
+document.addEventListener("DOMContentLoaded", function () {
+  const doces = document.querySelectorAll('.doce');
+  const produtos = document.querySelectorAll('.produto');
+  const btnFilter = document.querySelector('.btn-filter');
+  const dropdown = document.querySelector('.dropdown-filter');
+
+  doces.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const filtro = btn.querySelector('img').dataset.filter;
+
+      produtos.forEach(produto => {
+        if (produto.dataset.category === filtro) {
+          produto.classList.remove('hidden');
+        } else {
+          produto.classList.add('hidden');
+        }
+      });
+    });
+  });
+
+  if (dropdown) {
+    dropdown.addEventListener('change', () => {
+      const filtro = dropdown.value;
+
+      produtos.forEach(produto => {
+        if (produto.dataset.category === filtro) {
+          produto.classList.remove('hidden');
+        } else {
+          produto.classList.add('hidden');
+        }
+      });
+    });
+  }
+
+  btnFilter.addEventListener('click', () => {
+    produtos.forEach(produto => {
+      produto.classList.remove('hidden');
+    });
+
+    if (dropdown) {
+      dropdown.selectedIndex = 0;
+    }
+  });
+});
