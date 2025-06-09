@@ -214,7 +214,7 @@ body{
     align-items: center;
     justify-content: center;
     gap: 1vw;
-    width: 80%;
+    width: 100%;
     margin: 1vw auto;
     padding: 0.5vw 0;
     background: #582B2B;
@@ -223,16 +223,18 @@ body{
     text-decoration: none;
     font-weight: bold;
     font-size: 0.8vw;
+    padding-right: 0.3vw;
 }
 
 .btn-login:hover {
     background: #422020;
 }
 
-.modal-content p {
+.modal-content-perfil p {
     margin-top: 2vw;
     font-size: 1vw;
 }
+
 
 .hamburger {
   display: none;
@@ -407,6 +409,37 @@ body{
 
   .footer a {
     font-size: 4vw;
+  }
+
+   .perfil-modal {
+    width: 80%;
+    max-width: none;
+    padding: 6vw 4vw;
+    border-radius: 4vw;
+  }
+
+  .foto-perfil {
+    width: 20vw;
+    height: 20vw;
+    border: 1vw solid #f4c6c6;
+  }
+
+  .fechar-perfil {
+    width: 5vw;
+    top: 3vw;
+    right: 3vw;
+  }
+
+  .btn-login {
+    font-size: 3vw;
+    border-radius: 3vw;
+    padding: 1vw;
+    gap: 2vw;
+  }
+
+  .modal-content-perfil p {
+    font-size: 3vw;
+    margin-top: 4vw;
   }
 
 }

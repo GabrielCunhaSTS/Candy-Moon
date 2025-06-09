@@ -1,33 +1,27 @@
-section div
-{
-    display: flex;
-    margin-left: 5vw;
-}
-
-h1, h2, h3
-{
+.heading {
     color: #3D2929;
     font-weight: bold;
 }
 
-#sobre
-{
+.sobre {
+    display: flex;
     font-size: 2.3vw;
 }
 
-#sobre img
-{
+.sobre p{
+  padding-left: 5vw;
+}
+
+.sobre img {
     width: 30vw;
     height: 30vw;
 }
 
-h2
-{
+.heading-h2 {
     font-size: 4vw;
 }
 
-#linhaDoTempo
-{
+.linha-do-tempo {
     width: 100%;
     padding: 0px 0px 35px 0px;
     background-color: #FFD8C0;
@@ -36,43 +30,36 @@ h2
     align-items: center;
 }
 
-#linhaDoTempo picture img
-{
-    width: 100%;
+.linha-do-tempo picture img {
     display: flex;
     align-self: center;
-    width:80vw;
-
+    width: 80vw;
 }
 
-#linhaDoTempo section
-{
+.linha-do-tempo-content {
     display: flex;
     justify-content: center;
     margin: 0vw 5vw;
     gap: 8vw;
 }
 
-#linhaDoTempo section article
-{
+.linha-do-tempo-content article {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: left;
     font-size: 1.2vw;
-} 
+}
 
-#linhaDoTempo section article p
-{
+.linha-do-tempo-content article p {
     color: #3D2929;
     width: 18vw;
     margin-top: 2%;
     font-family: "Lexend Deca", sans-serif;
     font-weight: 300;
-} 
+}
 
-#video
-{
+.video-section {
     display: flex;
     flex-direction: column;
     justify-self: center;
@@ -80,72 +67,70 @@ h2
     margin-bottom: 10vw;
 }
 
-#video div
-{
+.video-section div {
     margin: 0vw;
 }
 
-#sticker1
-{
+#sticker1 {
     width: 13vw;
     position: absolute;
     top: 135vw;
-    left: 26vw;
+    left: 12vw;
 }
 
-#sticker2
-{
-    width: 15vw;
+#sticker2 {
+    width: 17vw;
     position: absolute;
-    top: 155vw;
-    right: 27vw;
+    top: 159.4vw;
+    right: 12vw;
 }
 
+/* Responsivo */
 @media (max-width: 768px) {
-  section div {
+  .section-container {
     flex-direction: column;
     align-items: center;
     margin-left: 0;
     padding: 0 5vw;
   }
 
-  #sobre {
+  .sobre {
     font-size: 4vw;
     text-align: justify;
   }
 
-  #sobre img {
-   display: none;
+  .sobre img {
+    display: none;
   }
 
-  h2 {
+  .heading-h2 {
     font-size: 6vw;
     text-align: center;
   }
 
-  #linhaDoTempo section {
+  .linha-do-tempo-content {
     flex-direction: column;
     align-items: center;
     gap: 6vw;
     margin: 0;
   }
 
-  #linhaDoTempo section article {
+  .linha-do-tempo-content article {
     font-size: 3.5vw;
     align-items: center;
     text-align: center;
   }
 
-  #linhaDoTempo section article p {
+  .linha-do-tempo-content article p {
     width: 80vw;
     font-size: 3.5vw;
   }
 
-  #linhaDoTempo picture img {
+  .linha-do-tempo picture img {
     width: 90vw;
   }
 
-  #video iframe {
+  .video-section iframe {
     width: 90vw;
     height: 50vw;
   }
@@ -162,4 +147,3 @@ h2
     right: -5vw;
   }
 }
-

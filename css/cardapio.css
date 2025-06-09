@@ -138,7 +138,7 @@
     font-family: 'Yeseva One', cursive;
 }
 
-.modal {
+.modal-prod {
     display: none;
     position: fixed;
     z-index: 999;
