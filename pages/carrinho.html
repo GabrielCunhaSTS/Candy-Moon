@@ -51,12 +51,19 @@
         </div>
 
         <div id="modal-pix" class="modal-pix">
-            <div class="modal-content">
-                <span class="close-modal">&times;</span>
-                <h2>Pagamento via Pix</h2>
-                <img src="../img/qrCode.jpeg" alt="QR Code Pix">
-                <p>Escaneie o QR Code para realizar o pagamento.</p>
-            </div>
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Pagamento via Pix</h2>
+            <img src="../img/qrCode.jpeg" alt="QR Code Pix">
+            <p>Escaneie o QR Code para realizar o pagamento.</p>
+            
+            <input type="text" id="codigo-pix" value="cb754bdb-d09b-411d-a4a2-57fd170e93b0" readonly style="opacity: 0; position: absolute; left: -9999px;">
+            
+   
+            <button class="copiar-chave" onclick="copiarCodigoPix()">
+            Copiar Código Pix
+            </button>
+        </div>
         </div>
 
         <div id="toast" class="toast">

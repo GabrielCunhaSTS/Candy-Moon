@@ -270,6 +270,17 @@
     transition: opacity 0.5s, bottom 0.5s;
 }
 
+
+.copiar-chave{
+    border: 0.7vw solid #422121; 
+    color: #422121; 
+    background: transparent; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer;
+    font-weight: bold;
+}
+
 .toast.show {
     visibility: visible;
     opacity: 1;
@@ -285,4 +296,153 @@
     font-size: 1.2vw;
     color: #fff;
     cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .container-card {
+    margin-top: 6vw;
+  }
+
+  .card-carrinho {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 3vw;
+    width: 80%;
+  }
+
+  .produto-img {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    border-radius: 2vw;
+    margin-bottom: 2vw;
+  }
+
+  .infos {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .titulo-produto {
+    font-size: 5vw;
+  }
+
+  .descricao-produto {
+    font-size: 3.5vw;
+  }
+
+  .container-preco {
+    gap: 2vw;
+    margin-top: 1vw;
+  }
+
+  .preco {
+    font-size: 4vw;
+  }
+
+  .unidade {
+    font-size: 3vw;
+  }
+
+  .qtd {
+    margin-top: 1vw;
+    width: 100%;
+    font-size: 4vw;
+    gap: 4vw;
+  }
+
+  .qtd img {
+    width: 5vw;
+  }
+
+  .btn-mais, .btn-menos {
+    padding: 2vw;
+    border-radius: 2vw;
+  }
+
+  .lixeira {
+    top: 2vw;
+    right: 2vw;
+    padding: 1.5vw;
+  }
+
+  .lixeira img {
+    width: 5vw;
+  }
+
+  .boleto {
+    font-size: 3vw;
+    line-height: 4.5vw;
+    padding: 4vw;
+  }
+
+  .subtotais p {
+    font-size: 3.5vw;
+  }
+
+  .complementos {
+    flex-direction: column;
+    gap: 3vw;
+  }
+
+  .complementos input {
+    font-size: 3vw;
+    padding: 2vw;
+  }
+
+  .complementos label {
+    font-size: 3vw;
+  }
+
+  .forma-pagamento label,
+  .forma-pagamento select {
+    font-size: 3vw;
+  }
+
+  .forma-pagamento select {
+    width: 100%;
+    padding: 2vw;
+  }
+
+  .btn-pagamento {
+    justify-content: center;
+  }
+
+  .efetuar-pagamento {
+    width: 100%;
+    padding: 3vw;
+    font-size: 4vw;
+  }
+
+  .btn-validar-cupom {
+    font-size: 3vw;
+    padding: 2vw;
+  }
+
+  .toast {
+    min-width: 60vw;
+    padding: 3vw;
+    font-size: 3.5vw;
+    bottom: 4vw;
+  }
+
+  .modal-content {
+    width: 80%;
+    padding: 4vw;
+  }
+
+  .modal-content p {
+    font-size: 4vw;
+  }
+
+  .modal-content img {
+    width: 45vw;
+    height: 45vw;
+  }
+
+  .close-modal {
+    font-size: 9vw;
+    top: 1vw;
+    right: 3vw;
+  }
 }

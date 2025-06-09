@@ -33,3 +33,19 @@ function showToast(message) {
     toast.classList.remove("show");
   }, 3000);
 }
+
+function copiarCodigoPix() {
+  const input = document.getElementById('codigo-pix');
+  input.select();
+  input.setSelectionRange(0, 99999);
+  document.execCommand('copy');
+
+  const toast = document.getElementById('toast');
+  toast.textContent = 'Código Pix copiado!';
+  toast.classList.add('show');
+  setTimeout(() => {
+    toast.classList.remove('show');
+  }, 3000);
+}
+
+
