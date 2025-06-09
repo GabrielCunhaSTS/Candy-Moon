@@ -340,7 +340,7 @@ body{
 
   .linha {
     font-size: 5vw;
-    padding: 2vw 4vw;
+    padding: 3vw 5vw;
     width: auto;
     border-radius: 3vw;
   }
@@ -358,8 +358,8 @@ body{
   }
 
   .icon-mobile img{
-    width: 5vw;
-    height: 5vw;
+    width: 6vw;
+    height: 6vw;
   }
   
   .textInicial {

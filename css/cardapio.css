@@ -283,7 +283,7 @@
     .modal-content #modal-img {
         height: 40vw;
         margin-top: 4vw;
-        margin-bottom: 4vw;
+        margin-bottom: 1vw;
         border-radius: 2vw;
     }
 
@@ -291,16 +291,17 @@
         padding: 0 2vw;
     }
 
+    .modal-info h2, .modal-info p {
+        margin: 1vw;
+        font-family: 'Yeseva One', cursive;
+    }
+
     .modal-info h2 {
         font-size: 4.5vw;
     }
 
     .modal-info p {
-        font-size: 3.5vw;
-    }
-
-    .preco-modal {
-        font-size: 4vw;
+        font-size: 3vw;
     }
 
     .adicionar-carrinho {
@@ -371,6 +372,10 @@
         padding: 4vw;
     }
 
+    .produto:hover{
+        transform: none;
+    }
+
     .img-produto {
         height: 30vw;
     }
@@ -388,7 +393,7 @@
     }
 
     .unidade {
-        font-size: 2vw;
+        font-size: 3vw;
     }
 
     .img-botao {
