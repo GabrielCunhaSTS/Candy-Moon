@@ -24,13 +24,16 @@
     font-family: 'Yeseva One', cursive;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 3vw;
+    overflow: hidden; 
 }
 
 .produto-img {
-    width: 15vw;
-    height: auto;
-    border-radius: 0.5vw;
-    margin-left: 1vw;
+   width: 15vw;
+  height: 15vw;
+  object-fit: cover;
+  border-radius: 0.5vw;
+  margin-left: 1vw;
+
 }
 
 .infos {

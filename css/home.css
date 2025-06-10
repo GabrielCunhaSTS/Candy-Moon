@@ -27,6 +27,11 @@
     align-self: center;
 }
 
+.icones:hover{
+    transform: scale(1.06);
+    transition: transform 0.3s ease-in-out;
+}
+
 /* carrossel */
 
 .container {
@@ -281,6 +286,11 @@ button img{
     font-size: 1.2vw;
     background-color: #FFC6C7;
     color: #582B2B;
+}
+
+.compra:hover{
+    transform: scale(1.06);
+    transition: transform 0.3s ease-in-out;
 }
 
 .dupla{
