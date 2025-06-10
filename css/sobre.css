@@ -137,13 +137,13 @@
 
   #sticker1 {
     width: 15vw;
-    top: 363vw;
-    left: -2vw;
+    top: 358vw;
+    left: 0;
   }
 
   #sticker2 {
-    width: 22vw;
-    top: 413vw;
-    right: -5vw;
+    width: 18vw;
+    top: 411vw;
+    right: 0;
   }
 }
