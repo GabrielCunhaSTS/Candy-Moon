@@ -141,14 +141,10 @@
   }
 
   #sticker1 {
-    width: 15vw;
-    top: 413vw;
-    left: 0;
+    display: none;
   }
 
   #sticker2 {
-    width: 20vw;
-    top: 465vw;
-    right: 0;
+    display: none;
   }
 }
