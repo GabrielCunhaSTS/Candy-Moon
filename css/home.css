@@ -483,3 +483,194 @@ iframe {
     z-index: 1;
 }
 
+@media (max-width: 768px) {
+    .divisa {
+        width: 92%;
+        flex-direction: row;
+        padding: 2vw 4vw;
+        gap: 0;
+    }
+
+    .imgSub {
+        font-size: 3vw;
+    }
+
+    .icones {
+        width: 15vw;
+        padding: 2vw;
+        border-radius: 50%;
+    }
+
+    #card-item {
+        flex: 0 0 40vw; 
+        height: 45vw;
+    } 
+
+  .badge {
+    font-size: 5vw;
+    margin-top: 30vw;
+  }
+
+  #prev, #next {
+    padding: 2vw;
+  }
+
+  button img {
+    width: 4vw;
+  }
+
+  .queridinho {
+    width: 80vw;
+    font-size: 6vw;
+    padding: 2vw;
+    letter-spacing: 0.5vw;
+    border-radius: 2vw;
+  }
+
+  .caixa {
+    flex-direction: column;
+    gap: 10vw;
+    margin-top: 4vw;
+  }
+
+  .card, .card2, .card3 {
+    width: 80vw;
+    height: auto;
+    padding: 5vw 2vw;
+    border-radius: 5vw;
+  }
+
+  .card img, .card2 img, .card3 img {
+    width: 82vw;
+    margin-top: -8vw;
+  }
+
+  .imgText h5 {
+    font-size: 5vw;
+    margin-top: 1vw;
+  }
+
+  .miniText {
+    font-size: 3.5vw;
+    width: 75vw;
+    margin-top: 2vw;
+  }
+
+  .compra {
+    width: 50vw;
+    font-size: 4vw;
+    padding: 2vw;
+    margin-top: 2vw;
+  }
+
+  .medalha {
+    top: 2vw;
+    right: 2vw;
+    width: 8vw;
+  }
+
+  .medalha img {
+    max-width: 15vw;
+  }
+
+  .card-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+  .card-redeSocial {
+        width: 80vw;
+        height: 90vw;
+        border-radius: 3vw;
+    }
+
+    .icon-circle img {
+        width: 30vw;
+        height: 30vw;
+    }
+
+    .card-text {
+        font-size: 6vw;
+    }
+
+    .subtitle {
+        font-size: 5.2vw;
+    }
+
+    .container2 {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vw;
+    gap: 4vw;
+  }
+
+  .colum {
+    width: 75vw;
+    gap: 3vw;
+    align-items: normal;
+  }
+
+  .dupla {
+    flex-direction: column;
+    gap: 3vw;
+  }
+
+  .caixinha {
+    width: 100%;
+    height: auto;
+    padding: 4vw 3vw;
+  }
+
+  .iconesForm {
+    width: 12vw;
+    height: 12vw;
+  }
+
+  .caixinha h5 {
+    font-size: 5vw;
+  }
+
+  .caixinha p {
+    font-size: 4vw;
+  }
+
+  .formulario {
+    width: 80%;
+    margin-top: 3vw;
+  }
+
+  .formulario h2 {
+    font-size: 7vw;
+  }
+
+  .formulario legend {
+    width: 90%;
+    font-size: 3.5vw;
+    margin-bottom: 3vw;
+  }
+
+  .formulario p,
+  .formulario form p {
+    font-size: 3.5vw;
+    margin-bottom: 3vw;
+  }
+
+  .formulario input,
+  .formulario textarea {
+    width: 95%;
+    font-size: 3.5vw;
+    padding: 1.5vw;
+  }
+
+  iframe {
+    margin-left: -2.7vw;
+    width: 80vw;
+    height: 40vw;
+    border-radius: 1.5vw;
+    border-width: 0.3vw;
+}
+}
+

@@ -85,7 +85,7 @@
     right: 12vw;
 }
 
-/* Responsivo */
+
 @media (max-width: 768px) {
   .section-container {
     flex-direction: column;
@@ -95,8 +95,13 @@
   }
 
   .sobre {
-    font-size: 4vw;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw;
     text-align: justify;
+    padding: 0;
   }
 
   .sobre img {
@@ -137,13 +142,13 @@
 
   #sticker1 {
     width: 15vw;
-    top: 358vw;
+    top: 413vw;
     left: 0;
   }
 
   #sticker2 {
-    width: 18vw;
-    top: 411vw;
+    width: 20vw;
+    top: 465vw;
     right: 0;
   }
 }

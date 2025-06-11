@@ -311,14 +311,16 @@
     align-items: flex-start;
     padding: 3vw;
     width: 80%;
+    overflow: hidden; 
   }
 
   .produto-img {
     width: 100%;
-    height: auto;
+    height: 40vw;
     margin-left: 0;
     border-radius: 2vw;
     margin-bottom: 2vw;
+    object-fit: cover;
   }
 
   .infos {

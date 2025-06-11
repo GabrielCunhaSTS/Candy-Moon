@@ -8,6 +8,9 @@ body{
     background-image: url(../img/Fundo.png);
     background-repeat: no-repeat;
     background-size: 100%;
+     background-size: cover; /* Altere de 100% para cover */
+  background-position: center center; /* Centraliza a imagem */
+  min-height: 100vh; /* Garante que ocupe no mínimo a altura total da tela */
 }
 
 .navBar{
@@ -305,6 +308,7 @@ body{
     padding-top: 10vw;
     padding-bottom: 10vw;
     position: relative;
+    background-color: #3D2929;
   }
 
   .hamburger {
@@ -313,7 +317,7 @@ body{
     background: none;
     border: none;
     cursor: pointer;
-    color: #3D2929;
+    color: #FFE1CF;
     z-index: 1001;
     margin-left: auto;
   }
@@ -331,7 +335,7 @@ body{
     top: 18vw;
     left: 0;
     width: 100%;
-    background-color: #FFE1CF;
+    background-color: #3D2929;
     padding: 4vw 0;
     display: none;
   }
